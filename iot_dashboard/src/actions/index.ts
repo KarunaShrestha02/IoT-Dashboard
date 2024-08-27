@@ -2,7 +2,7 @@
 import axios from "@/config/axiosTb";
 import { AxiosResponse } from "axios";
 import { redirect } from "next/navigation";
-import createSupabaseServerClient from "@/lib/supabase/server";
+import createSupabaseServerClient from "@/lib/supabase/server"; //"@/lib/supabase/server";
 import { revalidatePath,unstable_noStore as noStore } from "next/cache";
 
 type ResponseData = {
